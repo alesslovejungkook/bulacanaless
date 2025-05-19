@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bulacan: The Historical Heart of Luzon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', Arial, sans-serif;
+      background: #fff;
+      color: #000;
+    }
+
+    header {
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 20px;
+        background-image: url('image/bul.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-bottom: 2px solid #090000;
+        color: #333;
+    }
+
+    .header-title-group {
+      text-align: center;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.7); /* Optional: semi-transparent background for readability */
+      border-radius: 10px;
+    }
+
+    .header-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #000000;
+    }
+
+    .header-subtitle {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      color: #000000;
+      margin-top: 10px;
+      font-weight: normal;
+    }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid #eee;
+      width: 100%;
+      background-color: #fff;
+    }
+
+    .nav-label {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: bold;
+      background: #fff;
+      color: #000;
+      border: 3px solid #000;
+      padding: 14px 28px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+      user-select: none;
+    }
+
+    .nav-label:not(:last-child) {
+      border-right: 2px solid #ccc;
+    }
+
+    .nav-label:hover {
+      background: #000;
+      color: #fff;
+    }
+
+    input[name="nav"] {
+      display: none;
+    }
+
+    #home:checked ~ .nav-buttons label[for="home"],
+    #about:checked ~ .nav-buttons label[for="about"],
+    #delicacies:checked ~ .nav-buttons label[for="delicacies"],
+    #tourist:checked ~ .nav-buttons label[for="tourist"] {
+      background: #000;
+      color: #fff;
+    }
+
+    .content-section {
+      display: none;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      font-family: 'Playfair Display', serif;
+      color: #000000;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    #home:checked ~ .main-content #home-content,
+    #about:checked ~ .main-content #about-content,
+    #delicacies:checked ~ .main-content #delicacies-content,
+    #tourist:checked ~ .main-content #tourist-content {
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+      }
+
+      .header-title {
+        font-size: 1.4rem;
+      }
+
+      .header-subtitle {
+        font-size: 0.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER SECTION -->
+  <header>
+    <div class="header-title-group">
+      <div class="header-title">
+        Bulacan: The Historical Heart of Luzon
+      </div>
+      <div class="header-subtitle">
+        Known as the Historical Heart of Luzon, Bulacan is rich in culture, heritage, and natural beauty—tara na, and explore this vibrant province full of tradition and progress!
+      </div>
+    </div>
+  </header>
+
+  <!-- OPTIONAL: Add navigation or main content here -->
+
+</body>
+</html>
+
+
+
+
+
+    <!-- RADIO BUTTONS FOR NAVIGATION CONTROL -->
+    <input type="radio" name="nav" id="home" checked />
+    <input type="radio" name="nav" id="about" />
+    <input type="radio" name="nav" id="delicacies" />
+    <input type="radio" name="nav" id="tourist" />
+
+    <!-- NAV BUTTONS AS LABELS -->
+    <div class="nav-buttons">
+        <label for="home" class="nav-label">Home</label>
+        <label for="about" class="nav-label">About</label>
+        <label for="delicacies" class="nav-label">Delicacies</label>
+        <label for="tourist" class="nav-label">Tourist Destinations</label>
+    </div>
+
+    <!-- CONTENT SECTIONS -->
+    <div class="main-content">
+       <section id="home-content" class="content-section" style="background-color: #ffffff; padding: 40px 20px;">
+    <h2 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 10px; text-align: center;">
+        Welcome to Bulacan
+    </h2>
+
+    <p style="text-align: justify;">
+        Bulacan, the Historical Heart of Luzon, is a province renowned for its pivotal role in Philippine history, vibrant festivals, and rich cultural heritage. From the iconic Barasoain Church to its thriving local industries and natural wonders, Bulacan is a blend of tradition and progress. Discover its beautiful landscapes, taste its famous delicacies, and experience the warmth of its people. <strong>Tara na!</strong><br><br>
+
+        Bulacan is also home to brave heroes like Marcelo H. del Pilar and Gregorio del Pilar, whose contributions shaped the nation’s story. Its towns and cities are filled with colorful traditions, skilled artisans, and historic landmarks that reflect the province’s pride and identity. Whether you're exploring nature in Biak-na-Bato National Park, shopping for jewelry in Meycauayan, or enjoying sweet treats like pastillas and inipit, there's something for everyone here. <br><br>
+
+        <strong>Tara na!</strong> Tuklasin natin ang ganda at kasaysayan ng Bulacan — isang lalawigang puno ng puso, tapang, at saya!
+    </p>
+
+    <hr style="border: 1px solid #ccc; margin: 30px 0;">
+
+    <h3 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; text-align: center;">
+        Watch: Discover Bulacan
+    </h3>
+
+ <div style="text-align: center; margin-bottom: 30px;">
+  <video autoplay muted controls style="width: 100%; max-width: 900px; border-radius: 8px;">
+    <source src="C:\Users\Alessandra Nicole\artist\.vscode\bulacan.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
+    <hr style="border: 1px solid #ccc; margin: 30px 0;">
+
+    <section style="max-width: 900px; margin: 40px auto; font-family: 'Playfair Display', serif; color: #333;">
+        <h3 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 25px; text-align: center;">Upcoming Events & Festivals</h3>
+
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div style="border: 1px solid #ccc; padding: 15px 20px; border-radius: 8px; background: #f9f9f9;">
+                <h4 style="margin: 0 0 8px 0; font-weight: 700; font-size: 1rem;">Bulacan Day Celebration</h4>
+                <p style="margin: 0; font-size: 1rem;">A grand celebration of the province’s history and culture with parades, music, and street parties.</p>
+            </div>
+            <div style="border: 1px solid #ccc; padding: 15px 20px; border-radius: 8px; background: #f9f9f9;">
+                <h4 style="margin: 0 0 8px 0; font-weight: 700; font-size: 1rem;">Cultural Festivals</h4>
+                <p style="margin: 0; font-size: 1rem;">Experience traditional dances, arts, and rituals that showcase Bulacan’s rich heritage.</p>
+            </div>
+            <div style="border: 1px solid #ccc; padding: 15px 20px; border-radius: 8px; background: #f9f9f9;">
+                <h4 style="margin: 0 0 8px 0; font-weight: 700; font-size: 1rem;">Food Fairs & Trade Shows</h4>
+                <p style="margin: 0; font-size: 1rem;">Taste local delicacies and discover handcrafted products from Bulacan artisans.</p>
+            </div>
+        </div>
+    </section>
+    <hr style="border: 1px solid #ccc; margin: 30px 0;">
+
+    <h3 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; text-align: center;">
+        Provincial Government Officials
+    </h3>
+
+    <ul style="list-style: none; padding: 0; font-size: 1rem; text-align: justify;">
+        <li style="display: flex; align-items: center; margin-bottom: 20px;">
+            <img src="image/daniel.jpg" alt="Governor Daniel R. Fernando" style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; margin-right: 15px;">
+            <strong>Governor:</strong> Daniel R. Fernando
+        </li>
+        <li style="display: flex; align-items: center;">
+            <img src="image/alex.png" alt="Vice Governor Alexis C. Castro" style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; margin-right: 15px;">
+            <strong>Vice Governor:</strong> Alexis C. Castro
+        </li>
+        </ul>
+
+    <hr style="border: 1px solid #ccc; margin: 30px 0;">
+
+    <h3 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; text-align: center;">
+        Tara na sa Bulacan!
+    </h3>
+    <div style="text-align: center; margin-top: 40px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30851.937120633465!2d120.8123392!3d14.8537344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1747625331299!5m2!1sen!2sph"
+          width="100%" height="450" style="border:0; max-width: 900px; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+
+
+      <section id="about-content" class="content-section">
+      <h2 style="text-align: center; font-size: 2.5rem;">About Bulacan</h2>
+      <img src="image/bulacan.jpg" alt="Scenic view of Bulacan" 
+             style="width: 100%; max-width: 400px; height: auto; display: block; margin: 0 auto 30px auto; border-radius: 8px; object-fit: cover;">
+
+  <p style="text-align: justify;">
+    Bulacan, located in Central Luzon, Philippines, is a province with a rich historical legacy that dates back to pre-colonial times. Known as the "Historical Heart of Luzon," it played a significant role in the Philippine Revolution and the struggle for independence. With its close proximity to Manila, it serves as a vital cultural, economic, and political center of the region.
+  </p>
+<img src="image/heroes.jpg" alt="Scenic view of Bulacan" 
+       style="width: 100%; max-width: 400px; height: auto; display: block; margin: 0 auto 30px auto; border-radius: 8px; object-fit: cover;">
+  <p style="text-align: justify;">
+    Bulacan’s history is deeply intertwined with the fight for freedom. It was here that important figures like Marcelo H. del Pilar, one of the foremost propagandists during the Spanish era, and Gregorio del Pilar, a hero of the Philippine Revolution, emerged. These heroes, along with countless others, helped shape the nation's path to independence. The province is home to several historic landmarks, including the Barasoain Church, the site of the first Philippine Republic, and the Malolos Cathedral, both of which hold great significance in the country's struggle for sovereignty.
+  </p>
+<img src="image/dam.jpg" alt="Scenic view of Bulacan" 
+       style="width: 100%; max-width: 400px; height: auto; display: block; margin: 0 auto 30px auto; border-radius: 8px; object-fit: cover;">
+  <p style="text-align: justify;">
+    Today, Bulacan is a thriving province where tradition and modernity co-exist harmoniously. It boasts scenic landscapes, from rolling hills and natural parks to majestic rivers and tranquil lakes. The province is blessed with several natural wonders, including the Biak-na-Bato National Park, a protected area known for its limestone formations and rich biodiversity, and the Angat Dam, a major water reservoir providing water to Manila and nearby provinces.
+  </p>
+
+  <img src="image/singkaban.jpg" alt="Scenic view of Bulacan" 
+         style="width: 100%; max-width: 400px; height: auto; display: block; margin: 0 auto 30px auto; border-radius: 8px; object-fit: cover;">
+
+  <p style="text-align: justify;">
+    Bulacan is also known for its vibrant festivals, such as the Singkaban Festival, which celebrates the province’s rich cultural heritage through street dancing, music, and art displays. The province’s festivals highlight its strong traditions, which have been passed down through generations. The Bulacan Day celebration, held every 15th of August, is another major event that honors the bravery and sacrifice of the province’s forebears.
+  </p>
+<img src="image/site.jpg" alt="Scenic view of Bulacan" 
+       style="width: 100%; max-width: 400px; height: auto; display: block; margin: 0 auto 30px auto; border-radius: 8px; object-fit: cover;">
+  <p style="text-align: justify;">
+    Economically, Bulacan has become a hub for industry and commerce. The province is home to numerous industrial zones, including the First Bulacan Industrial Park, where a variety of businesses thrive, from manufacturing to technology. Meycauayan City, known as the jewelry capital of the Philippines, produces exquisite gold and silver jewelry that is sought after both locally and internationally. Agriculture also plays a crucial role in the economy, with rice, corn, and sugarcane being some of the province's primary crops.
+  </p>
+<img src="image/us.png" alt="Scenic view of Bulacan" 
+       style="width: 100%; max-width: 400px; height: auto; display: block; margin: 0 auto 30px auto; border-radius: 8px; object-fit: cover;">
+  <p style="text-align: justify;">
+    The people of Bulacan, known for their warmth and hospitality, pride themselves on their strong sense of community. They are also famous for their craftsmanship, particularly in traditional arts and crafts. The province is known for producing high-quality products such as pottery, woodcraft, and textiles. Local delicacies, like the sweet pastillas (milk candies) and inipit (layered pastries), are a testament to Bulacan’s culinary tradition.
+  </p>
+
+  <img src="image/bulsu.png" alt="Scenic view of Bulacan" 
+         style="width: 100%; max-width: 400px; height: auto; display: block; margin: 0 auto 30px auto; border-radius: 8px; object-fit: cover;">
+
+  <p style="text-align: justify;">
+    Bulacan’s educational institutions are also among the best in the region, providing quality education to students from all over the country. The presence of prestigious universities, such as the Bulacan State University and other local schools, contributes to the province’s growing reputation as an educational center in Luzon.
+  </p>
+<img src="image/malolosarch.jpg" alt="Scenic view of Bulacan" 
+       style="width: 100%; max-width: 400px; height: auto; display: block; margin: 0 auto 30px auto; border-radius: 8px; object-fit: cover;">
+  <p style="text-align: justify;">
+    With its perfect blend of history, culture, natural beauty, and economic potential, Bulacan continues to attract visitors, investors, and residents alike. Whether you’re looking to explore historical sites, indulge in delicious local food, or experience the warmth of Bulacan’s people, the province offers a truly unique and enriching experience.
+  </p>
+
+  <p style="text-align: justify;">
+    Bulacan is not just a place, it is a symbol of courage, progress, and the Filipino spirit. The province stands as a living testament to the resilience and pride of its people, and it continues to shape the future of the Philippines with its rich heritage and forward-thinking approach.
+  </p>
+</section>
+
+
+
+       <section id="delicacies-content" class="content-section">
+  <h2 style="text-align: center; font-size: 2.5rem;">Bulacan Delicacies</h2>
+
+
+  <!-- Pastillas -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/pastillias1.jpg" alt="Pastillas" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Pastillas</h3>
+      <p style="margin: 8px 0;">A sweet milk candy wrapped in colorful paper.</p>
+      <p style="margin: 0; font-style: italic;">Where to find: Meycauayan, Bulacan</p>
+    </div>
+  </div>
+
+  <!-- Inipit -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/inipit.jpg" alt="Inipit" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Inipit</h3>
+      <p style="margin: 8px 0;">A layered pastry with sweet filling.</p>
+      <p style="margin: 0; font-style: italic;">Where to find: Malolos, Bulacan</p>
+    </div>
+  </div>
+
+  <!-- Ensaymada -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/ensaymada.jpg" alt="Ensaymada" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Ensaymada</h3>
+      <p style="margin: 8px 0;">A soft, sweet bread topped with butter and sugar.</p>
+      <p style="margin: 0; font-style: italic;">Where to find: San Miguel, Bulacan</p>
+    </div>
+  </div>
+
+  <!-- Lechon -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/lechon.jpg" alt="Lechon" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Lechon</h3>
+      <p style="margin: 8px 0;">Roasted pig, a festive delicacy.</p>
+      <p style="margin: 0; font-style: italic;">Where to find: Bocaue, Bulacan</p>
+    </div>
+  </div>
+
+  <!-- Puto and Kutsinta -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/puto-kutsinta.jpg" alt="Puto and Kutsinta" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Puto and Kutsinta</h3>
+      <p style="margin: 8px 0;">Filipino steamed rice cakes, usually served with cheese or grated coconut.</p>
+      <p style="margin: 0; font-style: italic;">Where to find: Sta. Maria, Bulacan</p>
+    </div>
+  </div>
+
+  <!-- Halo-Halo -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/halo-halo.jpg" alt="Halo-Halo" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Halo-Halo</h3>
+      <p style="margin: 8px 0;">A popular Filipino dessert made with crushed ice, milk, and various toppings.</p>
+      <p style="margin: 0; font-style: italic;">Where to find: Guiguinto, Bulacan</p>
+    </div>
+  </div>
+
+  <!-- Bibingka -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/bibingka.jpg" alt="Bibingka" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Bibingka</h3>
+      <p style="margin: 8px 0;">A traditional rice cake usually served during Christmas season.</p>
+      <p style="margin: 0; font-style: italic;">Where to find: Malolos, Bulacan</p>
+    </div>
+  </div>
+
+  <!-- Carabao Milk Ice Cream -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/carabao-ice-cream.jpeg" alt="Carabao Milk Ice Cream" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Carabao Milk Ice Cream</h3>
+      <p style="margin: 8px 0;">Creamy ice cream made from the milk of carabaos.</p>
+      <p style="margin: 0; font-style: italic;">Where to find: Bustos, Bulacan</p>
+    </div>
+  </div>
+
+  <!-- Longganisa -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/longganisa.png" alt="Longganisa" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Longganisa</h3>
+      <p style="margin: 8px 0;">Filipino-style sausage, typically served with garlic rice and egg.</p>
+      <p style="margin: 0; font-style: italic;">Where to find: Calumpit, Bulacan</p>
+    </div>
+  </div>
+
+  <!-- Chicharon -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto;">
+    <img src="image/chicharon.jpg" alt="Chicharon" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Chicharon</h3>
+      <p style="margin: 8px 0;">Deep-fried crispy pork skin, often served as a snack or side dish.</p>
+      <p style="margin: 0; font-style: italic;">Where to find: Sta.Maria, Bulacan</p>
+    </div>
+  </div>
+</section>
+</section>
+       <section id="tourist-content" class="content-section" style="padding: 40px;">
+  <h2 style="text-align: center; margin-bottom: 40px; font-size: 2.5rem;">Tourist Destinations in Bulacan</h2>
+
+  <!-- Barasoain Church -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/bara.jpg" alt="Barasoain Church" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Barasoain Church</h3>
+      <p style="margin: 8px 0;">
+        Known as the “Cradle of Democracy in the East,” Barasoain Church is a historic landmark where the First Philippine Congress convened and the Malolos Constitution was drafted. It played a key role in the country’s fight for independence.
+      </p>
+    </div>
+  </div>
+
+  <!-- Our Lady of Lourdes Grotto -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/grotto.jpg" alt="Our Lady of Lourdes Grotto" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Our Lady of Lourdes Grotto</h3>
+      <p style="margin: 8px 0;">
+        A serene religious site that replicates the Lourdes Grotto in France. Visitors come here to find peace, offer prayers, and enjoy the natural surroundings in a calm atmosphere.
+      </p>
+    </div>
+  </div>
+
+  <!-- Casa Real -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/casareal.jpg" alt="Casa Real" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Casa Real</h3>
+      <p style="margin: 8px 0;">
+        Once the provincial capitol of Bulacan, Casa Real now serves as a museum that preserves and exhibits important artifacts and historical documents about Bulacan’s cultural heritage.
+      </p>
+    </div>
+  </div>
+
+  <!-- Meycauayan Church -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/meychurch.jpg" alt="Meycauayan Church" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Meycauayan Church (St. Francis of Assisi Parish)</h3>
+      <p style="margin: 8px 0;">
+        This centuries-old church is admired for its intricate Baroque architecture and well-preserved religious artwork, serving as a spiritual and cultural center for Meycauayan residents.
+      </p>
+    </div>
+  </div>
+
+  <!-- St. Michael the Archangel Parish Church -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto; border-bottom: 1px solid #ddd; padding-bottom: 20px;">
+    <img src="image/st.michael.jpg" alt="St. Michael the Archangel Parish Church" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">St. Michael the Archangel Parish Church</h3>
+      <p style="margin: 8px 0;">
+        Located in San Miguel, this historic church honors the Archangel Michael and features impressive religious icons, making it a popular site for pilgrims and tourists interested in Bulacan’s spiritual history.
+      </p>
+    </div>
+  </div>
+
+  <!-- Malolos Immaculate Conception Cathedral -->
+  <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start; max-width: 800px; margin-inline: auto;">
+    <img src="image/malolos.jpg" alt="Malolos Immaculate Conception Cathedral" style="width: 200px; height: 160px; object-fit: cover; border-radius: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.5rem;">Malolos Immaculate Conception Cathedral</h3>
+      <p style="margin: 8px 0;">
+        The seat of the Roman Catholic Diocese of Malolos, this grand cathedral is known for its magnificent architecture and vital role in the religious and cultural life of Bulacan.
+      </p>
+    </div>
+  </div>
+</section>
+
+    </div>
+</body>
+</html>
